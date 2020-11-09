@@ -1,0 +1,87 @@
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+  }
+
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .head{
+    background-color: rgb(5, 80, 150);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .head12{
+    padding-top: 30px;
+    padding-right: 20px;
+  }
+
+  .head2{
+    background-color: rgb(44, 118, 187);
+    margin-right: 513px;
+    padding-left: 30px;
+  }
+
+  .background{
+    background-color: rgb(5, 150, 65);
+  }
+
+ .videos{
+   padding-left: 45px;
+ }
+
+ .zoom {
+  padding: 50px;
+  transition: transform .2s; 
+  width: 100px;
+  height: 100px;
+}
+
+.zoom:hover {
+  transform: scale(1.2); 
+}
+
+.body{
+  padding-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.text {
+  padding-left: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text12{
+  padding-left: 50px;
+}
+
+.text2 {
+  padding-left: 50px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.headforprj {
+  background-color: rgb(5, 80, 150);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 45px;
+}
+
+.content {
+  background-color: rgb(66, 180, 196);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 45px;
+}
